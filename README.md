@@ -9,6 +9,6 @@ Put `bb_qrcode.php` into your `applications/libraries/` and put directory `qrcod
     $this->load->library('bb_qrcode');
     
     $str = 'http://foo.bar';
-    $this->bb_qrcode->generateQRCode($str);
+    $this->bb_qrcode->generate($str);
 
 
